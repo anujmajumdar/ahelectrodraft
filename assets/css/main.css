@@ -99,8 +99,8 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+		background-color: red;
+		/*background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");*/
 		background-size: auto,
  cover;
 		background-attachment: fixed,
@@ -3134,7 +3134,7 @@ input, select, textarea {
 					-ms-transition: background-color 0.2s ease-in-out;
 					transition: background-color 0.2s ease-in-out;
 					border-radius: 5px;
-					box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
+					box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.125);
 					padding: 0 1.35em;
 				}
 
@@ -3157,11 +3157,11 @@ input, select, textarea {
 					}
 
 					#header nav a[href="#menu"]:hover {
-						background-color: rgba(255, 255, 255, 0.025);
+						background-color: rgba(0, 0, 0, 0.025);
 					}
 
 					#header nav a[href="#menu"]:active {
-						background-color: rgba(255, 255, 255, 0.075);
+						background-color: rgba(0, 0, 0, 0.075);
 					}
 
 		#header.alt {
@@ -3291,7 +3291,7 @@ input, select, textarea {
 		}
 
 		#menu h2 {
-			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+			border-bottom: solid 2px rgba(0, 0, 0, 0.125);
 			padding-bottom: 1em;
 		}
 
@@ -3337,7 +3337,7 @@ input, select, textarea {
 				}
 
 					#menu .links li a:hover {
-						background: #45558d;
+						background: #000000;
 					}
 
 		@media screen and (max-width: 736px) {
@@ -3465,8 +3465,8 @@ input, select, textarea {
 
 			#banner {
 				padding: 7em 0 8.25em 0 ;
-				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+				background-color: black;
+				/*background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");*/
 				background-size: auto,
  cover;
 				background-position: center,
@@ -3625,21 +3625,21 @@ input, select, textarea {
 	}
 
 	.wrapper {
-		background-color: #2e3141;
+		background-color: black;
 		margin: 6.5em 0;
 		position: relative;
 	}
 
 		.wrapper:before, .wrapper:after {
-			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232e3141%3B' /%3E%3C/svg%3E");
+			background-color: red;
 		}
 
 		.wrapper:before {
-			box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
+			box-shadow: inset 0 -1px 0 0 black, 0 1px 0 0 black;
 		}
 
 		.wrapper:after {
-			box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
+			box-shadow: inset 0 -1px 0 0 black, 0 1px 0 0 black;
 		}
 
 		.wrapper:before, .wrapper:after {
@@ -3703,19 +3703,19 @@ input, select, textarea {
 			}
 
 		.wrapper.style3 {
-			background-color: #3d4051;
+			background-color: red;
 		}
 
 			.wrapper.style3:before, .wrapper.style3:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233d4051%3B' /%3E%3C/svg%3E");
+				background-color: black;
 			}
 
 			.wrapper.style3:before {
-				box-shadow: inset 0 -1px 0 0 #3d4051, 0 1px 0 0 #3d4051;
+				box-shadow: inset 0 -1px 0 0 red, 0 1px 0 0 red;
 			}
 
 			.wrapper.style3:after {
-				box-shadow: inset 0 -1px 0 0 #3d4051, 0 1px 0 0 #3d4051;
+				box-shadow: inset 0 -1px 0 0 red, 0 1px 0 0 red;
 			}
 
 		.wrapper.style4 {
@@ -3767,19 +3767,22 @@ input, select, textarea {
 			}
 
 		.wrapper.spotlight {
-			background-color: #4c5c96;
+			background-color: red;
 		}
 
-			.wrapper.spotlight:before, .wrapper.spotlight:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%234c5c96%3B' /%3E%3C/svg%3E");
+			.wrapper.spotlight:before {
+				background-image: black;
+			} 
+			.wrapper.spotlight:after {
+				background-image: black;
 			}
 
 			.wrapper.spotlight:before {
-				box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
+				box-shadow: inset 0 -1px 0 0 red, 0 1px 0 0 red;
 			}
 
 			.wrapper.spotlight:after {
-				box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
+				box-shadow: inset 0 -1px 0 0 red, 0 1px 0 0 red;
 			}
 
 			.wrapper.spotlight .inner {
@@ -3844,19 +3847,19 @@ input, select, textarea {
 				}
 
 			.wrapper.spotlight.style3 {
-				background-color: #3f4e85;
+				background-color: red;
 			}
 
 				.wrapper.spotlight.style3:before, .wrapper.spotlight.style3:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233f4e85%3B' /%3E%3C/svg%3E");
+					background-color: black;
 				}
 
 				.wrapper.spotlight.style3:before {
-					box-shadow: inset 0 -1px 0 0 #3f4e85, 0 1px 0 0 #3f4e85;
+					box-shadow: inset 0 -1px 0 0 red, 0 1px 0 0 red;
 				}
 
 				.wrapper.spotlight.style3:after {
-					box-shadow: inset 0 -1px 0 0 #3f4e85, 0 1px 0 0 #3f4e85;
+					box-shadow: inset 0 -1px 0 0 red, 0 1px 0 0 red;
 				}
 
 			.wrapper.spotlight.style4 {
@@ -4070,8 +4073,8 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		#footer {
-			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-color: black;
+			/*background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");*/
 			background-size: auto,
  cover;
 			background-position: center,
