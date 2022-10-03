@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: red;
+		background-color: black;
 		/*background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");*/
 		background-size: auto,
  cover;
@@ -3134,7 +3134,7 @@ input, select, textarea {
 					-ms-transition: background-color 0.2s ease-in-out;
 					transition: background-color 0.2s ease-in-out;
 					border-radius: 5px;
-					box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
+					box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.125);
 					padding: 0 1.35em;
 				}
 
@@ -3157,11 +3157,11 @@ input, select, textarea {
 					}
 
 					#header nav a[href="#menu"]:hover {
-						background-color: rgba(255, 255, 255, 0.025);
+						background-color: rgba(0, 0, 0, 0.025);
 					}
 
 					#header nav a[href="#menu"]:active {
-						background-color: rgba(255, 255, 255, 0.075);
+						background-color: rgba(0, 0, 0, 0.075);
 					}
 
 		#header.alt {
@@ -3291,7 +3291,7 @@ input, select, textarea {
 		}
 
 		#menu h2 {
-			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+			border-bottom: solid 2px rgba(0, 0, 0, 0.125);
 			padding-bottom: 1em;
 		}
 
@@ -3337,7 +3337,7 @@ input, select, textarea {
 				}
 
 					#menu .links li a:hover {
-						background: #45558d;
+						background: #000000;
 					}
 
 		@media screen and (max-width: 736px) {
@@ -3401,7 +3401,7 @@ input, select, textarea {
 
 			#banner .logo .icon {
 				border-radius: 100%;
-				border: solid 2px rgba(255, 255, 255, 0.125);
+				border: solid 2px rgba(0, 0, 0, 0.125);
 				cursor: default;
 				display: inline-block;
 				font-size: 2em;
@@ -3465,8 +3465,8 @@ input, select, textarea {
 
 			#banner {
 				padding: 7em 0 8.25em 0 ;
-				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+				background-color: black;
+				/*background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");*/
 				background-size: auto,
  cover;
 				background-position: center,
@@ -3631,7 +3631,7 @@ input, select, textarea {
 	}
 
 		.wrapper:before, .wrapper:after {
-			background-color: red;
+			background-color: #b40000;
 		}
 
 		.wrapper:before {
@@ -3703,7 +3703,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style3 {
-			background-color: red;
+			background-color: #b40000;
 		}
 
 			.wrapper.style3:before, .wrapper.style3:after {
@@ -3711,11 +3711,11 @@ input, select, textarea {
 			}
 
 			.wrapper.style3:before {
-				box-shadow: inset 0 -1px 0 0 red, 0 1px 0 0 red;
+				box-shadow: inset 0 -1px 0 0 #b40000, 0 1px 0 0 #b40000;
 			}
 
 			.wrapper.style3:after {
-				box-shadow: inset 0 -1px 0 0 red, 0 1px 0 0 red;
+				box-shadow: inset 0 -1px 0 0 #b40000, 0 1px 0 0 #b40000;
 			}
 
 		.wrapper.style4 {
@@ -3767,22 +3767,22 @@ input, select, textarea {
 			}
 
 		.wrapper.spotlight {
-			background-color: red;
+			background-color: #b40000;
 		}
 
 			.wrapper.spotlight:before {
-				background-image: black;
+				background-color: black;
 			} 
 			.wrapper.spotlight:after {
-				background-image: black;
+				background-color: black;
 			}
 
 			.wrapper.spotlight:before {
-				box-shadow: inset 0 -1px 0 0 red, 0 1px 0 0 red;
+				box-shadow: inset 0 -1px 0 0 #b40000, 0 1px 0 0 #b40000;
 			}
 
 			.wrapper.spotlight:after {
-				box-shadow: inset 0 -1px 0 0 red, 0 1px 0 0 red;
+				box-shadow: inset 0 -1px 0 0 #b40000, 0 1px 0 0 #b40000;
 			}
 
 			.wrapper.spotlight .inner {
@@ -3847,7 +3847,7 @@ input, select, textarea {
 				}
 
 			.wrapper.spotlight.style3 {
-				background-color: red;
+				background-color: #b40000;
 			}
 
 				.wrapper.spotlight.style3:before, .wrapper.spotlight.style3:after {
@@ -3855,11 +3855,11 @@ input, select, textarea {
 				}
 
 				.wrapper.spotlight.style3:before {
-					box-shadow: inset 0 -1px 0 0 red, 0 1px 0 0 red;
+					box-shadow: inset 0 -1px 0 0 #b40000, 0 1px 0 0 #b40000;
 				}
 
 				.wrapper.spotlight.style3:after {
-					box-shadow: inset 0 -1px 0 0 red, 0 1px 0 0 red;
+					box-shadow: inset 0 -1px 0 0 #b40000, 0 1px 0 0 #b40000;
 				}
 
 			.wrapper.spotlight.style4 {
@@ -4073,8 +4073,8 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		#footer {
-			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-color: black;
+			/*background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");*/
 			background-size: auto,
  cover;
 			background-position: center,
