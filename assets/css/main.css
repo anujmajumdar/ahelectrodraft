@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: black;
+		background-color: #b40000;
 		/*background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");*/
 		background-size: auto,
  cover;
@@ -3401,7 +3401,7 @@ input, select, textarea {
 
 			#banner .logo .icon {
 				border-radius: 100%;
-				border: solid 2px rgba(0, 0, 0, 0.125);
+				border: solid 2px rgba(255, 255, 255, 0.125);
 				cursor: default;
 				display: inline-block;
 				font-size: 2em;
@@ -3687,7 +3687,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #b40000;
+			background-color: #353849;
 		}
 
 			.wrapper.style2:before, .wrapper.style2:after {
@@ -3771,10 +3771,10 @@ input, select, textarea {
 		}
 
 			.wrapper.spotlight:before {
-				background-color: black;
+				background-image: black;
 			} 
 			.wrapper.spotlight:after {
-				background-color: black;
+				background-image: black;
 			}
 
 			.wrapper.spotlight:before {
